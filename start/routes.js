@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +13,28 @@
 |
 */
 
-const Route = use('Route')
+const Route = use('Route');
+const Next = use('Adonis/Addons/Next');
+const handler = Next.getRequestHandler();
 
-Route.get('/', ({ request }) => {
-  return { greeting: 'Hello world in JSON' }
-})
+Route.get('/api', ({ request }) => {
+  return { greeting: 'Hello world in JSON' };
+});
+
+Route.get('/a', ({ request, response }) => {
+  return Next.render(request.request, response.response, '/b', request.request.query);
+});
+
+Route.get('/b', ({ request, response }) => {
+  return Next.render(request.request, response.response, '/a', request.request.query);
+});
+
+Route.get('/posts/:id', ({ request, response }) => {
+  return Next.render(request.request, response.response, '/posts', {
+    id: request.request.params.id
+  });
+});
+
+Route.any('*', ({ request, response }) => {
+  return handler(request.request, response.response);
+});
