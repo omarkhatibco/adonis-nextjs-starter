@@ -1,12 +1,14 @@
-# Adonis API application
+# Adonis nextJs Starter
+
+You will find here a quick way to start in adonis and nextjs
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+1.  Bodyparser
+2.  Authentication
+3.  CORS
+4.  Lucid ORM
+5.  Migrations and seeds
 
 ## Setup
 
@@ -17,7 +19,6 @@ adonis new yardstick --api-only
 ```
 
 or manually clone the repo and then run `npm install`.
-
 
 ### Migrations
 
