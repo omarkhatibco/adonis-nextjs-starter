@@ -18,7 +18,7 @@ const providers = [
   '@adonisjs/lucid/providers/LucidProvider',
   '@adonisjs/mail/providers/MailProvider',
   '@adonisjs/drive/providers/DriveProvider',
-  'adonis-nextjs/providers/NextProvider.js'
+  'adonis-nextjs/providers/NextProvider'
 ];
 
 /*
@@ -54,6 +54,6 @@ const aliases = {};
 | Here you store ace commands for your package
 |
 */
-const commands = ['adonis-nextjs/Commands/NextBuilder'];
+const commands = [];
 
 module.exports = { providers, aceProviders, aliases, commands };

@@ -21,20 +21,24 @@ Route.get('/api', ({ request }) => {
   return { greeting: 'Hello world in JSON' };
 });
 
-Route.get('/a', ({ request, response }) => {
-  return Next.render(request.request, response.response, '/b', request.request.query);
-});
-
+// * Next Routes
 Route.get('/b', ({ request, response }) => {
-  return Next.render(request.request, response.response, '/a', request.request.query);
+  const query = request.get();
+  return Next.render(request.request, response.response, '/b', query);
 });
 
-Route.get('/posts/:id', ({ request, response }) => {
-  return Next.render(request.request, response.response, '/posts', {
-    id: request.request.params.id
-  });
-});
+Route.get('/post/:id', ({ request, response, params }) =>
+  Next.render(request.request, response.response, '/b', {
+    id: params.id
+  })
+);
 
-Route.any('*', ({ request, response }) => {
-  return handler(request.request, response.response);
-});
+Route.get(
+  '*',
+  ({ request, response }) =>
+    new Promise((resolve, reject) => {
+      handler(request.request, response.response, promise => {
+        promise.then(resolve).catch(reject);
+      });
+    })
+);

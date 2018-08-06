@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "build": "next build ./resources",
+    "build": "next build ./src",
+    "export": "next export ./src",
     "start": "NODE_ENV=production node server.js",
     "test": "node ace test"
   },
@@ -18,7 +19,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@adonisjs/ace": "^5.0.3",
+    "@adonisjs/ace": "^5.0.4",
     "@adonisjs/auth": "^3.0.6",
     "@adonisjs/bodyparser": "^2.0.4",
     "@adonisjs/cors": "^1.0.6",
@@ -28,11 +29,11 @@
     "@adonisjs/ignitor": "^2.0.7",
     "@adonisjs/lucid": "^6.0.1",
     "@adonisjs/mail": "^3.0.8",
-    "adonis-nextjs": "^1.1.2",
+    "adonis-nextjs": "^2.0.1",
     "next": "^6.1.1",
     "nodemon": "^1.18.3",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {},
   "autoload": {
