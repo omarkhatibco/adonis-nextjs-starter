@@ -1,8 +1,6 @@
-# Adonis nextJs Starter
+# Adonis NextJS Starter
 
-You will find here a quick way to start in adonis and nextjs
-
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+This is the boilerplate for creating an API server in AdonisJs with Next.js, it comes pre-configured with.
 
 1.  Bodyparser
 2.  Authentication
@@ -15,7 +13,7 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 Use the adonis command to install the blueprint
 
 ```bash
-adonis new yardstick --api-only
+adonis new yardstick --blueprint=omarkhatibco/adonis-nextjs-starter
 ```
 
 or manually clone the repo and then run `npm install`.
@@ -24,6 +22,6 @@ or manually clone the repo and then run `npm install`.
 
 Run the following command to run startup migrations.
 
-```js
+```bash
 adonis migration:run
 ```
