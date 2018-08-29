@@ -1,8 +1,8 @@
 {
-  "name": "adonis-api-app",
+  "name": "adonis-nextjs-starter",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
-  "description": "Adonisjs boilerplate for API server with pre-configured JWT",
+  "description": "Adonisjs boilerplate for API server with pre-configured JWT and NextJS",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
@@ -13,7 +13,8 @@
   },
   "keywords": [
     "adonisjs",
-    "adonis-app"
+    "adonis-app",
+    "nextjs"
   ],
   "author": "",
   "license": "UNLICENSED",
@@ -27,7 +28,7 @@
     "@adonisjs/fold": "^4.0.9",
     "@adonisjs/framework": "^5.0.8",
     "@adonisjs/ignitor": "^2.0.7",
-    "@adonisjs/lucid": "^6.0.1",
+    "@adonisjs/lucid": "^6.1.2",
     "@adonisjs/mail": "^3.0.8",
     "adonis-nextjs": "^2.0.1",
     "next": "^6.1.1",
