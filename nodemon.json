@@ -1,6 +1,3 @@
 {
-  "ignore": [
-    "resources/*",
-    "src/*"
-  ]
+  "ignore": ["resources/*", "next/*", "src/*"]
 }

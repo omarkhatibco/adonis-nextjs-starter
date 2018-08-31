@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "build": "next build ./src",
-    "export": "next export ./src",
+    "build": "next build ./next",
+    "export": "next export ./next",
     "start": "NODE_ENV=production node server.js",
     "test": "node ace test"
   },
@@ -30,9 +30,9 @@
     "@adonisjs/ignitor": "^2.0.7",
     "@adonisjs/lucid": "^6.1.2",
     "@adonisjs/mail": "^3.0.8",
-    "adonis-nextjs": "^2.0.1",
+    "adonis-nextjs": "^3.0.0",
     "next": "^6.1.1",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.18.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },

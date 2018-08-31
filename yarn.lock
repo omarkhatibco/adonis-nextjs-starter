@@ -112,9 +112,9 @@
     youch "^2.0.8"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-6.0.1.tgz#887156c091ea526e95dcef5ec85935ed285dc84f"
+"@adonisjs/lucid@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-6.1.2.tgz#97e0742730c3e96561a403807e7cd503f073c38a"
   dependencies:
     "@adonisjs/generic-exceptions" "^2.0.1"
     chance "^1.0.16"
@@ -782,9 +782,9 @@ acorn@^5.0.0, acorn@^5.7.1:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.1.tgz#f095829297706a7c9776958c0afc8930a9b9d9d8"
 
-adonis-nextjs@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/adonis-nextjs/-/adonis-nextjs-2.0.1.tgz#e4b3a532afa65cb77869a8e60ca70ad7bf39abe9"
+adonis-nextjs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/adonis-nextjs/-/adonis-nextjs-3.0.0.tgz#442d5ff9867496ab433441a288e2b3d5c2820017"
 
 ajv-keywords@^2.0.0:
   version "2.1.1"
@@ -3998,9 +3998,9 @@ nodemailer@^4.6.7:
   version "4.6.7"
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-4.6.7.tgz#b68de7f36d65618bdeeeb76234e3547d51266373"
 
-nodemon@^1.18.3:
-  version "1.18.3"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.3.tgz#46e681ee0dd1b590562e03019b4c5df234f906f9"
+nodemon@^1.18.4:
+  version "1.18.4"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.4.tgz#873f65fdb53220eb166180cf106b1354ac5d714d"
   dependencies:
     chokidar "^2.0.2"
     debug "^3.1.0"
