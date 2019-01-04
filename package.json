@@ -32,9 +32,9 @@
     "@adonisjs/mail": "^3.0.9",
     "adonis-nextjs": "^3.1.1",
     "next": "^7.0.2",
-    "nodemon": "^1.18.5",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "nodemon": "^1.18.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {},
   "autoload": {
