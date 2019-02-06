@@ -33,8 +33,8 @@
     "adonis-nextjs": "^3.1.1",
     "next": "^7.0.2",
     "nodemon": "^1.18.9",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {},
   "autoload": {
