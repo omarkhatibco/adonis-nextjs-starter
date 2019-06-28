@@ -5,10 +5,10 @@
   "description": "Adonisjs boilerplate for API server with pre-configured JWT and NextJS",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "adonis serve --dev --ignore=next/*",
     "build": "next build ./next",
     "export": "next export ./next",
-    "start": "NODE_ENV=production node server.js",
+    "start": "adonis serve",
     "test": "node ace test"
   },
   "keywords": [
@@ -23,18 +23,18 @@
     "@adonisjs/ace": "^5.0.8",
     "@adonisjs/auth": "^3.0.7",
     "@adonisjs/bodyparser": "^2.0.9",
+    "@adonisjs/cli": "^4.0.12",
     "@adonisjs/cors": "^1.0.7",
     "@adonisjs/drive": "^1.0.4",
     "@adonisjs/fold": "^4.0.9",
-    "@adonisjs/framework": "^5.0.12",
+    "@adonisjs/framework": "^5.0.13",
     "@adonisjs/ignitor": "^2.0.8",
     "@adonisjs/lucid": "^6.1.3",
     "@adonisjs/mail": "^3.0.9",
     "adonis-nextjs": "^3.1.1",
-    "next": "^7.0.2",
-    "nodemon": "^1.18.9",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {},
   "autoload": {
